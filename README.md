@@ -18,6 +18,7 @@ $ docker run -d \
 ```
 
 Available environment variables:
+
  * `CERT_PATH` Path where the certificate and private key will be
    saved, default `/var/ssl`.
  * `COMMON_NAME` The CN of the generated certificate, this will be
